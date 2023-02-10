@@ -1,0 +1,20 @@
+name: Update AltStore Feed
+run-name: ${{ github.actor }} has released a new app version
+on: 
+  release:
+    types: [published]
+jobs:
+  Update-AltStore-Feed:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - uses: actions/checkout@v3
+      - name: Update AltStore feed
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+      - run: |
+          node ./scripts/update-altstore-feed.mjs
+        env:
+          GITHUB_REF: ${{ GITHUB_REF }}
+          GITHUB_TOKEN: ${{ GITHUB_TOKEN }}
