@@ -1,10 +1,10 @@
 {
-  "name": "Meeco Labs",
   "identifier": "eu.meecolabs.altstore.source",
+  "name": "Meeco Labs",
   "apps": [
     {
-      "name": "ZIB 100",
-      "bundleIdentifier": "",
+      "bundleIdentifier": "eu.meecolabs.ZIB-100",
+      "name": "ZIB 100 Notifications",
       "developerName": "Meeco Labs",
       "subtitle": "Simple unofficial Zeit im Bild 100 notifications app.",
       "version": "2023.02.10-b7",
@@ -19,5 +19,16 @@
       ]
     }
   ],
-  "news": []
+  "news": [
+    {
+      "identifier": "2023-02-10-zib-100-now-available",
+      "date": "2023-02-10",
+      "title": "ZIB 100 Notifications is out!",
+      "caption": "Finally, you can move off Twitter and get ZIB 100 notifications through a native app instead.",
+      "appID": "eu.meecolabs.ZIB-100",
+      "imageURL": "",
+      "notify": false,
+      "tintColor": "BD1E1B"
+    }
+  ]
 }
