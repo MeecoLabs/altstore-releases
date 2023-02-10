@@ -12,7 +12,7 @@
       "versionDescription": "- Initial release via AltStore",
       "downloadURL": "https://github.com/MeecoLabs/altstore-releases/releases/download/zib10-ios-2023.02.10-b7/ZIB100-7.ipa?raw=true",
       "localizedDescription": "Simple unofficial Zeit im Bild 100 notifications app.",
-      "iconURL": "https://github.com/MeecoLabs/altstore-releases/blob/main/apps/zib100-ios/icon.png",
+      "iconURL": "https://github.com/MeecoLabs/altstore-releases/raw/main/apps/zib100-ios/icon.png",
       "tintColor": "BD1E1B",
       "size": 151000,
       "screenshotURLs": [
